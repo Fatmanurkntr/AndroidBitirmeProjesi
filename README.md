@@ -7,7 +7,7 @@
 ## 📝 Proje Künyesi
 
 *   **👩‍💻 Geliştirici:** Fatımanur Kantar
-*   **🎓 Bootcamp:** [Pupilica Android Geliştirme Bootcamp]
+*   **🎓 Bootcamp:** Pupilica Android Geliştirme Bootcamp
 *   **👨‍🏫 Eğitmen:** Kasım Adalan
 *   **🗓️ Proje Teslim Tarihi:** 30 Mayıs 2025
 *   **🔗 GitHub Repository:** [https://github.com/Fatmanurkntr/AndroidBitirmeProjesi.git](https://github.com/Fatmanurkntr/AndroidBitirmeProjesi.git)
