@@ -1,6 +1,6 @@
 # 🍦 Yummo! - Yemek Sipariş Uygulaması (Bootcamp Bitirme Projesi) 🚀
 
-Bu proje, [Bootcamp Adınız/Kurum Adınız] kapsamında geliştirilmiş bir Android mobil yemek sipariş uygulamasıdır. Kullanıcıların yemekleri listeleyebileceği, detaylarını görebileceği, sepetine ekleyebileceği ve sipariş verebileceği (simülasyon) bir platform sunmayı amaçlamaktadır.
+
 
 <!-- 📸 BURAYA UYGULAMANIN GENEL BİR EKRAN GÖRÜNTÜSÜNÜ KOYABİLİRSİNİZ (Örn: Anasayfa) -->
 <!-- ![Uygulama Anasayfa](link_veya_path/anasayfa_ekran_goruntusu.png) -->
@@ -38,16 +38,13 @@ Bu proje, bir mobil yemek sipariş uygulamasının temel işlevlerini ve modern 
 
 1.  **🍔 Yemekleri Listeleme (Anasayfa):**
     *   Uzak API'den çekilen yemekler; resimleri, adları ve fiyatlarıyla listelenir.
-    *   <!-- 📸 BURAYA ANASAYFA YEMEK LİSTESİ EKRAN GÖRÜNTÜSÜ -->
-    *   `SearchView` ile yemek arama imkanı.
+   
 
 2.  **📄 Yemek Detayını Görme:**
     *   Yemeğe tıklandığında detay sayfası açılır (büyük resim, ad, fiyat).
-    *   <!-- 📸 BURAYA YEMEK DETAY SAYFASI EKRAN GÖRÜNTÜSÜ -->
-
+    
 3.  **🔢 Detayda Adet Seçebilme:**
-    *   "+" ve "-" butonları ile sipariş adedi belirlenir.
-
+    
 4.  **➕ Sepete Ekleme:**
     *   Anasayfadan hızlı ekleme veya detay sayfasından seçilen adetle ekleme.
     *   `Snackbar` ile kullanıcıya geri bildirim.
@@ -55,7 +52,6 @@ Bu proje, bir mobil yemek sipariş uygulamasının temel işlevlerini ve modern 
 5.  **🛒 Sepetteki Yemekleri Görüntüleme:**
     *   "Sepetim" sayfasında eklenen ürünler, detayları ve toplam tutar gösterilir.
     *   Gönderim ücreti ve genel toplam dinamik olarak hesaplanır.
-    *   <!-- 📸 BURAYA SEPET SAYFASI EKRAN GÖRÜNTÜSÜ -->
 
 6.  **🗑️ Sepetten Yemek Silme:**
     *   Sepetten ürün çıkarma ve tutarların anında güncellenmesi.
@@ -66,23 +62,19 @@ Bu proje, bir mobil yemek sipariş uygulamasının temel işlevlerini ve modern 
     *   Kalp ikonuna tıklayarak yemekleri favorilere ekleme/çıkarma.
     *   Favori durumu Room veritabanında saklanır.
     *   Ayrı "Favorilerim" sayfasında listeleme.
-    *   <!-- 📸 BURAYA FAVORİLER SAYFASI EKRAN GÖRÜNTÜSÜ -->
 
 2.  **🌙 Karanlık Mod (Dark Mode) Desteği:**
     *   Cihazın sistem temasına otomatik uyum.
     *   Karanlık mod için özel renk paleti.
-    *   <!-- 📸 BURAYA UYGULAMANIN KARANLIK MODDA BİR EKRAN GÖRÜNTÜSÜ -->
 
 3.  **👤 Kullanıcı Profili ve Sipariş Geçmişi:**
     *   "Profilim" sayfası.
     *   **📍 Teslimat Adresi:** Kullanıcı adresini kaydetme, görüntüleme ve güncelleme (`SharedPreferences`).
     *   **🧾 Sipariş Geçmişi:** "Sepeti Onayla" sonrası siparişlerin Room veritabanına kaydı ve listelenmesi. Sipariş detaylarını görme ve geçmişi temizleme.
-    *   <!-- 📸 BURAYA PROFİL SAYFASI (ADRES VE SİPARİŞ GEÇMİŞİ GÖRÜNEN) EKRAN GÖRÜNTÜSÜ -->
 
 4.  **🍽️ Kategoriye Göre Basit Filtreleme (Anasayfa):**
     *   Anasayfada "Yiyecekler", "İçecekler", "Tatlılar", "Tümü" kategorileri.
     *   Tıklandığında yemek listesinin istemci tarafında filtrelenmesi.
-    *   <!-- 📸 BURAYA KATEGORİLERİN VE FİLTRELENMİŞ YEMEK LİSTESİNİN GÖRÜNDÜĞÜ BİR EKRAN GÖRÜNTÜSÜ -->
 
 5.  **🚚 Gönderim Ücreti Mantığı (Sepet Sayfası):**
     *   500 TL üzeri siparişlerde bedava gönderim, altında 50 TL ücret.
