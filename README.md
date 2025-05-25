@@ -3,7 +3,7 @@
 
 
 <!-- 📸 BURAYA UYGULAMANIN GENEL BİR EKRAN GÖRÜNTÜSÜNÜ KOYABİLİRSİNİZ (Örn: Anasayfa) -->
-<!-- ![Uygulama Anasayfa](link_veya_path/anasayfa_ekran_goruntusu.png) -->
+ [Uygulama Anasayfa](anasayfa.png)
 
 ## 📝 Proje Künyesi
 
