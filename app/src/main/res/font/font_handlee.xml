@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/handlee" />
+    <!-- YUKARIDAKİ @font/handjet_regular KISMI,
+         BİR ÖNCEKİ ADIMDA font KLASÖRÜNE EKLEDİĞİNİZ
+         .TTF DOSYASININ ADIYLA (UZANTISIZ) AYNI OLMALIDIR.
+         Eğer dosyanızın adı handjet.ttf ise burası @font/handjet olmalı.
+         Eğer handjet_bold.ttf eklediyseniz ve bold stilini tanımlamak istiyorsanız:
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/handjet_bold" />
+    -->
+</font-family>

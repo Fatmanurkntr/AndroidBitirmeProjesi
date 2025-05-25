@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="?attr/colorSurface"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingBottom="12dp">
+
+<ImageView
+    android:id="@+id/imageViewYemekResim"
+    android:layout_width="0dp"
+    android:layout_height="150dp"
+android:contentDescription="@string/yemek_resmi"
+android:scaleType="fitCenter"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+<TextView
+    android:id="@+id/textViewYemekAdi"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:ellipsize="end"
+    android:fontFamily="@font/handjet"
+    android:maxLines="2"
+    android:textColor="?android:attr/textColorPrimary"
+    android:textSize="17sp"
+android:textStyle="bold"
+app:layout_constraintEnd_toStartOf="@+id/imageViewFavori"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/imageViewYemekResim"
+tools:text="Oldukça Lezzetli Bir Yemek Adı" />
+
+<TextView
+    android:id="@+id/textViewYemekFiyat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:fontFamily="@font/handjet"
+    android:textColor="?attr/colorPrimary"
+    android:textSize="16sp"
+android:textStyle="bold"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/textViewYemekAdi"
+tools:text="₺55" />
+
+<ImageView
+    android:id="@+id/imageViewFavori"
+    android:layout_width="36dp"
+android:layout_height="36dp"
+android:layout_marginEnd="4dp"
+android:background="?attr/selectableItemBackgroundBorderless"
+android:clickable="true"
+android:contentDescription="Favoriye Ekle/Çıkar"
+android:focusable="true"
+android:padding="6dp"
+android:src="@drawable/ic_favorite_border"
+app:tint="@color/favori_ikon_bos_rengi"
+app:layout_constraintBottom_toBottomOf="@+id/imageViewSepeteEkle"
+app:layout_constraintEnd_toStartOf="@+id/imageViewSepeteEkle"
+app:layout_constraintTop_toTopOf="@+id/imageViewSepeteEkle"
+tools:ignore="TouchTargetSizeCheck" />
+
+<ImageView
+    android:id="@+id/imageViewSepeteEkle"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginEnd="12dp"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:contentDescription="@string/sepete_ekle"
+    android:focusable="true"
+    android:padding="8dp"
+    android:src="@drawable/ic_add_shopping_cart"
+    app:tint="?attr/colorPrimary"
+    app:layout_constraintBottom_toBottomOf="@id/textViewYemekFiyat"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@id/textViewYemekAdi"
+    tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>

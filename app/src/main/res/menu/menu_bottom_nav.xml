@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Anasayfa" />
+
+    <item
+        android:id="@+id/favorilerFragment"
+        android:icon="@drawable/ic_favorite_filled"
+        android:title="Favorilerim" />
+
+    <!-- YENİ PROFİL/SİPARİŞLERİM SEKMESİ -->
+    <item
+        android:id="@+id/profilFragment"
+    android:icon="@drawable/ic_profil"
+    android:title="Profilim" />
+
+    <item
+        android:id="@+id/sepetFragment"
+        android:icon="@drawable/ic_shopping_basket"
+        android:title="Sepetim" />
+</menu>

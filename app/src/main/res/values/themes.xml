@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.YemekSiparisUygulamasi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Ana Renkler -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+
+        <!-- İkincil Renkler -->
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorSecondaryVariant">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/onAccentColor</item>
+
+        <!-- Arka Plan ve Yüzey Renkleri -->
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Hata Renkleri -->
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/on_error_color</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Metin Renkleri -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Varsayılan Font Ailesi -->
+        <item name="android:fontFamily">@font/handlee</item>
+        <item name="fontFamily">@font/handlee</item>
+
+        <!-- Özel Metin Görünümleri (İsteğe Bağlı - Yorumları kaldırıp özelleştirebilirsiniz) -->
+        <!--
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.App.HeadlineLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.App.BodyLarge</item>
+        -->
+
+        <!-- ActionBar/Toolbar için Temalar (Manuel Toolbar eklediğimiz için önemli) -->
+        <item name="actionBarTheme">@style/ThemeOverlay.App.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.App.PopupOverlay</item>
+
+        <!-- Diğer Stiller -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <!-- <item name="materialCardViewStyle">@style/Widget.App.CardView</item> -->
+        <!-- <item name="textInputStyle">@style/Widget.App.TextInputLayout</item> -->
+        <!-- <item name="materialButtonStyle">@style/Widget.App.Button</item> -->
+    </style>
+
+    <!-- Toolbar için Özel Overlay Temaları -->
+    <style name="ThemeOverlay.App.ActionBar" parent="ThemeOverlay.Material3.Dark.ActionBar">
+        <!-- Bu tema Toolbar'ın kendi rengi (genellikle primary) ve üzerindeki ikon/metin renkleri için kullanılır. -->
+        <!-- Eğer Toolbar'ınızın metin/ikon rengi colorOnPrimary ise bu genellikle yeterlidir. -->
+        <!-- İsterseniz burada Toolbar'a özel renkler tanımlayabilirsiniz. -->
+        <!-- <item name="android:textColorPrimary">?attr/colorOnPrimary</item> -->
+        <!-- <item name="colorControlNormal">?attr/colorOnPrimary</item> -->
+    </style>
+
+    <style name="ThemeOverlay.App.PopupOverlay" parent="ThemeOverlay.Material3.Light">
+        <!-- Bu tema, Toolbar'daki overflow menüsü gibi popup'ların görünümü için kullanılır. -->
+        <!-- Genellikle Light bir tema kullanılır. -->
+    </style>
+
+
+    <!-- Özel TextAppearance Stilleri (İsteğe Bağlı) -->
+    <!--
+    <style name="TextAppearance.App.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/handjet_bold</item>
+        <item name="android:fontFamily">@font/handjet_bold</item>
+    </style>
+    <style name="TextAppearance.App.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/handjet</item>
+        <item name="android:fontFamily">@font/handjet</item>
+    </style>
+    -->
+
+    <!-- Özel BottomNavigationView Stili -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/bottom_nav_background</item>
+        <item name="itemIconTint">@color/bottom_nav_item_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_item_selector</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <!-- YENİ EKLENECEK STİL: Daire Buton Şekli -->
+    <style name="ShapeAppearance.App.CircleButton" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item> <!-- Bu, köşeleri yarıçapının %50'si kadar yuvarlaklaştırarak daire yapar -->
+    </style>
+
+</resources>

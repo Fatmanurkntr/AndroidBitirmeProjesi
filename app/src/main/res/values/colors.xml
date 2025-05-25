@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standart Renkler -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Ana Palet -->
+    <color name="primaryColor">#FF6347</color>   <!-- Mercan Kırmızısı (Tomato) -->
+    <color name="primaryDarkColor">#E5533D</color> <!-- primaryColor'ın biraz koyusu (Status bar için) -->
+    <color name="accentColor">#AFEEEE</color>     <!-- Açık Turkuaz (PaleTurquoise) -->
+    <color name="onPrimaryColor">#FFFFFF</color>   <!-- primaryColor üzerindeki yazı/ikon -->
+    <color name="onAccentColor">#212121</color>    <!-- accentColor üzerindeki yazı/ikon -->
+
+    <!-- Nötr Renkler ve Uygulama Genel Renkleri -->
+    <color name="app_background">#FFF9E6</color>         <!-- Çok açık krem -->
+    <color name="card_background">#FFF5EE</color>        <!-- Kartlar için biraz daha koyu krem (Seashell) -->
+    <color name="text_primary">#2F4F4F</color>          <!-- Koyu Antrasit Gri -->
+    <color name="text_secondary">#696969</color>         <!-- Orta Gri (DimGray) -->
+    <color name="icon_tint_default">#424242</color>      <!-- Genel ikonlar için -->
+
+    <!-- Özel Durum Renkleri -->
+    <color name="favori_ikon_dolu_rengi">#E91E63</color> <!-- Canlı Pembe/Kırmızı -->
+    <color name="favori_ikon_bos_rengi">#757575</color>  <!-- Orta Gri -->
+    <color name="error_color">#B00020</color>           <!-- Standart hata rengi -->
+    <color name="on_error_color">#FFFFFF</color>        <!-- Hata rengi üzerindeki yazı -->
+
+    <!-- Bottom Navigation Renkleri (İsteğe Bağlı - Temadan da alabilir) -->
+    <color name="bottom_nav_background">@color/card_background</color>
+    <color name="bottom_nav_item_selected">@color/primaryColor</color>
+    <color name="bottom_nav_item_unselected">@color/text_secondary</color>
+
+    <color name="info_message_background_color">#E3F2FD</color> <!-- Açık Mavi tonu (örnek) -->
+    <color name="info_message_text_color">#0D47A1</color>    <!-- Koyu Mavi tonu (örnek) -->
+</resources>

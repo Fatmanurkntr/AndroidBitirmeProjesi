@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/layout/kategori_item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:background="?attr/selectableItemBackground">
+
+<ImageView
+android:id="@+id/imageViewKategoriIkon"
+android:layout_width="40dp"
+    android:layout_height="40dp"
+    app:tint="?attr/colorPrimary"
+    tools:srcCompat="@drawable/ic_kategori_yemek" />
+
+    <TextView
+        android:id="@+id/textViewKategoriAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/text_primary"
+        android:textSize="12sp"
+        tools:text="Yiyecekler" />
+    </LinearLayout>

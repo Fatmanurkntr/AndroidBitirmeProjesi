@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yummo!</string>
+    <string name="yemek_resmi">Yemek Resmi</string>
+    <string name="sepete_ekle">Sepete Ekle</string>
+</resources>

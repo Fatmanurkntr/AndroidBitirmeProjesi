@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standart Renkler (Karanlık modda da aynı kalabilir veya değişebilir) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Ana Palet (Karanlık Mod) -->
+    <!-- Not: Bu renkler açık moddakiyle aynı kalabilir veya karanlık temaya daha uygun tonlarla değiştirilebilir. -->
+    <!-- Örnek olarak biraz daha farklı tonlar kullanıldı, isteğe bağlı. -->
+    <color name="primaryColor">#FF7F7F</color>   <!-- Mercan Kırmızısı'nın biraz daha soluk bir tonu -->
+    <color name="primaryDarkColor">#D25252</color> <!-- primaryColor'ın biraz koyusu (Status bar için) -->
+    <color name="accentColor">#87CEEB</color>     <!-- Açık Turkuaz'ın biraz daha belirgin bir tonu (SkyBlue) -->
+    <color name="onPrimaryColor">#FFFFFFFF</color>   <!-- primaryColor üzerindeki yazı/ikon -->
+    <color name="onAccentColor">#000000</color>    <!-- accentColor üzerindeki yazı/ikon -->
+
+    <!-- Nötr Renkler ve Uygulama Genel Renkleri (Karanlık Mod) -->
+    <color name="app_background">#121212</color>         <!-- Koyu Gri (Material Design Dark Theme Standardı) -->
+    <color name="card_background">#1E1E1E</color>        <!-- Kartlar için biraz daha açık bir koyu gri -->
+    <color name="text_primary">#E0E0E0</color>          <!-- Çok açık gri (Beyaza yakın) -->
+    <color name="text_secondary">#A0A0A0</color>         <!-- Orta-açık gri -->
+    <color name="icon_tint_default">#BDBDBD</color>      <!-- Genel ikonlar için açık gri -->
+
+    <!-- Özel Durum Renkleri (Karanlık Mod) -->
+    <color name="favori_ikon_dolu_rengi">#F48FB1</color> <!-- Daha açık bir pembe/kırmızı -->
+    <color name="favori_ikon_bos_rengi">#9E9E9E</color>  <!-- Daha açık bir gri -->
+    <color name="error_color">#CF6679</color>           <!-- Material Design Karanlık Tema Hata Rengi -->
+    <color name="on_error_color">#000000</color>        <!-- Hata rengi üzerindeki yazı -->
+
+    <!-- Bottom Navigation Renkleri (Karanlık Mod) -->
+    <color name="bottom_nav_background">@color/card_background</color> <!-- Kart arka planıyla aynı olabilir -->
+    <color name="bottom_nav_item_selected">@color/primaryColor</color> <!-- Karanlık mod için ayarladığımız primaryColor -->
+    <color name="bottom_nav_item_unselected">@color/text_secondary</color> <!-- Karanlık mod için ayarladığımız text_secondary -->
+
+    <color name="info_message_background_color">#263238</color> <!-- Koyu Mavi-Gri tonu (örnek) -->
+    <color name="info_message_text_color">#90CAF9</color>    <!-- Açık Mavi tonu (örnek) -->
+
+
+</resources>

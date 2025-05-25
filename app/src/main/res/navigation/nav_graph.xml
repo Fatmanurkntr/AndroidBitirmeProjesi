@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.yemeksiparisuygulamasi.ui.fragment.AnasayfaFragment"
+        android:label="@string/app_name"
+    tools:layout="@layout/fragment_anasayfa">
+    <action
+        android:id="@+id/action_anasayfaFragment_to_detayFragment"
+        app:destination="@id/detayFragment" />
+
+</fragment>
+
+<fragment
+android:id="@+id/detayFragment"
+android:name="com.example.yemeksiparisuygulamasi.ui.fragment.DetayFragment"
+android:label="Yemek Detayı"
+tools:layout="@layout/fragment_detay">
+<argument
+    android:name="yemek"
+    app:argType="com.example.yemeksiparisuygulamasi.data.model.Yemek" />
+<!-- Detaydan Sepete gitmek için bir action (opsiyonel, Toolbar ikonu vb. ile) -->
+<!-- <action
+    android:id="@+id/action_detayFragment_to_sepetFragment"
+    app:destination="@id/sepetFragment" /> -->
+</fragment>
+
+<fragment
+android:id="@+id/favorilerFragment"
+android:name="com.example.yemeksiparisuygulamasi.ui.fragment.FavorilerFragment"
+android:label="Favorilerim"
+tools:layout="@layout/fragment_favoriler">
+<!-- Favoriler sayfasındaki bir yemeğe tıklandığında Detay sayfasına gitmek için action -->
+<action
+    android:id="@+id/action_favorilerFragment_to_detayFragment"
+    app:destination="@id/detayFragment" />
+</fragment>
+
+<fragment
+android:id="@+id/sepetFragment"
+android:name="com.example.yemeksiparisuygulamasi.ui.fragment.SepetFragment"
+android:label="Sepetim"
+tools:layout="@layout/fragment_sepet">
+<!-- Sepetten Anasayfaya veya başka bir yere gitmek için action'lar (opsiyonel) -->
+<!-- Örneğin, sipariş tamamlandıktan sonra anasayfaya yönlendirme -->
+<!-- <action
+    android:id="@+id/action_sepetFragment_to_anasayfaFragment"
+    app:destination="@id/anasayfaFragment"
+    app:popUpTo="@id/nav_graph" /> -->
+<!-- app:popUpToInclusive="true" da eklenebilir, tüm geri yığını temizlemek için -->
+</fragment>
+
+    <fragment
+        android:id="@+id/profilFragment"
+    android:name="com.example.yemeksiparisuygulamasi.ui.fragment.ProfilFragment"
+    android:label="Profilim"
+    tools:layout="@layout/fragment_profil" />
+
+    </navigation>
