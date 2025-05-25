@@ -1,9 +1,8 @@
 # 🍦 Yummo! - Yemek Sipariş Uygulaması (Bootcamp Bitirme Projesi) 🚀
 
-
-
-<!-- 📸 BURAYA UYGULAMANIN GENEL BİR EKRAN GÖRÜNTÜSÜNÜ KOYABİLİRSİNİZ (Örn: Anasayfa) -->
- ![Uygulama Anasayfa](anasayfa.png)
+ ![Uygulama Anasayfa](anasayfa.png)   ![Yemek Detay Ekranı](yemek_detay.png)  
+ ![Favoriler Ekranı](favoriler.png)   ![Sepet Ekranı](sepet.png)   
+ ![Adres Sayfası](adres.png)          ![Uygulama Logo](logo.png)   
 
 ## 📝 Proje Künyesi
 
